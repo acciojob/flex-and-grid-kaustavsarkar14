@@ -1,5 +1,8 @@
 /*  your css code here. If applicable */
-.card-wrapper {
+body {
+	background-color: #fafafa;
+}
+.cards-wrapper {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 20px;
@@ -15,10 +18,10 @@
       justify-content: space-between;
     }
     .card h1 {
-      font-size: 1.5em;
+      font-size: 36px;
       margin-bottom: 10px;
     }
     .card p {
-      font-size: 0.75em;
+      font-size: 18px;
       margin-top: 10px;
     }
